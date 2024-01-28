@@ -14,6 +14,7 @@
 		5246C1E32B65BA3700DB37E7 /* L1_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246C1E22B65BA3700DB37E7 /* L1_DemoTests.swift */; };
 		5246C1ED2B65BA3700DB37E7 /* L1_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246C1EC2B65BA3700DB37E7 /* L1_DemoUITests.swift */; };
 		5246C1EF2B65BA3700DB37E7 /* L1_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246C1EE2B65BA3700DB37E7 /* L1_DemoUITestsLaunchTests.swift */; };
+		5246C1FE2B66576800DB37E7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246C1FD2B66576800DB37E7 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5246C1E82B65BA3700DB37E7 /* L1_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L1_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5246C1EC2B65BA3700DB37E7 /* L1_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1_DemoUITests.swift; sourceTree = "<group>"; };
 		5246C1EE2B65BA3700DB37E7 /* L1_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5246C1FD2B66576800DB37E7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				5246C1D12B65BA3600DB37E7 /* L1_DemoApp.swift */,
 				5246C1D32B65BA3600DB37E7 /* ContentView.swift */,
+				5246C1FD2B66576800DB37E7 /* LocationManager.swift */,
 				5246C1D52B65BA3700DB37E7 /* Assets.xcassets */,
 				5246C1D72B65BA3700DB37E7 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				5246C1D42B65BA3600DB37E7 /* ContentView.swift in Sources */,
 				5246C1D22B65BA3600DB37E7 /* L1_DemoApp.swift in Sources */,
+				5246C1FE2B66576800DB37E7 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +428,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"L1_Demo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location for map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +457,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"L1_Demo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location for map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
